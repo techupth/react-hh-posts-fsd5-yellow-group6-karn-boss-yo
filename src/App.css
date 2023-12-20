@@ -77,3 +77,40 @@ button {
   outline: none;
   border: 5px solid var(--secondary-color);
 }
+
+.message-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.message-input-container input {
+  margin-right: 30px;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  padding: 20px;
+  width: 256px;
+  color: white;
+  font-size: 30px;
+  outline: none;
+  border: 5px solid var(--secondary-color);
+}
+
+input {
+  border-radius: 30px;
+  padding: 20px;
+  height: 85px;
+  width: 500px;
+  outline: none;
+  border: 5px solid var(--secondary-color);
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+input::placeholder {
+  color: var(--muted-color-200);
+}
